@@ -361,3 +361,31 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Fichiers générés par la compilation C++ avec g++
+*.exe
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# Dossier pour les objets compilés
+obj/
+
+# Fichier exécutable spécifique au projet
+AlgoAAVReloaded.exe
+
+# Fichiers de débogage GDB
+*.gdb
+core.*
+
+# Fichiers de sauvegarde des éditeurs
+*~
+*.bak
+*.swp
+*.swo
+
+# Fichiers temporaires
+*.tmp
+*.temp

@@ -1,5 +1,5 @@
-# include "mockData.h"
-#include< cstdlib >
+#include "../include/MockData.h"
+#include <cstdlib>
 #include <time.h>
 #include <cmath>
 #include <iostream>

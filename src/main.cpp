@@ -1,6 +1,6 @@
 #include <iostream>
-#include "ReconnaissanceVocal.h"
-#include "UtilsMatrix.h"
+#include "../include/ReconnaissanceVocal.h"
+#include "../include/UtilsMatrix.h"
 using namespace std;
 
 int main()
