@@ -389,3 +389,4 @@ core.*
 # Fichiers temporaires
 *.tmp
 *.temp
+*.wav
