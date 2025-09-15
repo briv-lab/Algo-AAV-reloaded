@@ -1,4 +1,4 @@
-#include "UtilsMatrix.h"
+#include "../include/UtilsMatrix.h"
 #include <iostream>
 
 UtilsMatrix::UtilsMatrix()
@@ -7,7 +7,7 @@ UtilsMatrix::UtilsMatrix()
 
 
 /*
-    Génère la matrice de correspondance entre deux fenètres fréquentiels
+    Gï¿½nï¿½re la matrice de correspondance entre deux fenï¿½tres frï¿½quentiels
 */
 vector<vector<double>> UtilsMatrix::generateMatrixBetweenTowVoice(vector<vector<double>> frequentialWindowSignal_1, vector<vector<double>> frequentialWindowSignal_2)
 {
@@ -33,7 +33,7 @@ vector<vector<double>> UtilsMatrix::generateMatrixBetweenTowVoice(vector<vector<
 }
 
 /*
-    Créer une matrice test avec des 0 en diagonal pour les tests
+    Crï¿½er une matrice test avec des 0 en diagonal pour les tests
 */
 vector<vector<double>> UtilsMatrix::generateMatrixBetweenTowVoiceForTests(vector<vector<double>> fw1, vector<vector<double>> fw2)
 {

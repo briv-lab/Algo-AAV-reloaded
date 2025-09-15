@@ -1,0 +1,54 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe générer le fichier actif",
+            "command": "C:\\Strawberry\\c\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Tâche générée par le débogueur."
+        },
+        {
+            "type": "shell",
+            "label": "C/C++: Compiler tout le projet",
+            "command": "g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-Wall",
+                "-std=c++17",
+                "-Iinclude",
+                "src\\main.cpp",
+                "src\\MockData.cpp", 
+                "src\\ReconnaissanceVocal.cpp",
+                "src\\UtilsMatrix.cpp",
+                "-o",
+                "AlgoAAVReloaded.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compile tous les fichiers du projet avec les includes."
+        }
+    ],
+    "version": "2.0.0"
+}
